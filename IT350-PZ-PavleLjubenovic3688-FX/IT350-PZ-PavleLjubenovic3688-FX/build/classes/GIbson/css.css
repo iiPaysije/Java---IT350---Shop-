@@ -1,0 +1,107 @@
+.button 
+{
+    -fx-padding: 2 11 2 11;   
+    -fx-border-color: #FFEBCD;
+    -fx-border-width: 3;
+    -fx-background-radius: 6;
+    -fx-background-color: #005b66;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFEBCD;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.radio-button
+{
+    -fx-text-fill: blanchedalmond;
+}
+
+.root 
+{
+     -fx-background-color:teal;
+}
+
+.label
+{
+    -fx-font-size: 20pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: blanchedalmond;
+    -fx-opacity: 1;   
+}
+
+.vbox
+{
+    -fx-border-color: #3CB371;
+    -fx-border-insets: 10; 
+    -fx-border-width: 3;
+    -fx-background-color:teal;
+    -fx-alignment: center ;
+    -fx-padding: 10 ;
+    -fx-spacing: 10;
+}
+
+.textArea
+{
+    -fx-background-color:  white;
+    -fx-text-fill: black;
+}
+
+#mojTF
+{
+    -fx-text-fill: black;
+    -fx-min-width: 50;
+    -fx-alignment: center ;
+    -fx-padding: 10 ;
+    -fx-spacing: 20;
+}
+
+#mojGrid
+{
+    -fx-alignment: center ;
+    -fx-padding: 10 ;
+    -fx-spacing: 20;
+    -fx-border-color: #3CB371;
+    -fx-border-insets: 10; 
+    -fx-border-width: 3;
+    -fx-background-color:teal;
+}
+
+#mojaVB
+{
+    -fx-alignment: center ;
+    -fx-padding: 10 ;
+    -fx-spacing: 20;
+    -fx-border-color: #3CB371;
+    -fx-border-insets: 10; 
+    -fx-border-width: 3;
+    -fx-background-color:teal;
+}
+
+#mojaHB
+{
+    -fx-alignment: center ;
+    -fx-padding: 10 ;
+    -fx-spacing: 20;
+    -fx-border-insets: 10; 
+    -fx-border-width: 3;
+    -fx-background-color:teal;
+}
+
+#malaLabela
+{
+    -fx-font-size: 13pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: blanchedalmond;
+    -fx-opacity: 1;   
+    -fx-alignment: center ;
+    -fx-padding: 10 ;
+    -fx-spacing: 20;   
+}
+
+#tekstPolje
+{
+    -fx-border-color: #005b66; 
+    -fx-border-width: 11;
+}
+

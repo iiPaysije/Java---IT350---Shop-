@@ -1,0 +1,18 @@
+SQL UPITI 
+
+1.Broj proizvedenih gitara <><><><>
+SELECT COUNT(Gitara_ID) FROM Gitara; 
+
+
+2.Datum kada je napravljeno najvise zica za gitaru <><><><>
+SELECT delovi.DELOVI_DATUMIZRADE FROM delovi JOIN zica AS z on Z.DELOVI_ID = delovi.DELOVI_ID WHERE DATEDIFF(delovi.DELOVI_DATUMIZRADE,delovi.DELOVI_DATUMIZRADE) =0
+
+
+3.najskuplje telo <><><>
+SELECT MAX(delovi.DELOVI_CENA) FROM delovi JOIN telo AS t ON t.DELOVI_ID = delovi.DELOVI_ID
+
+
+4.Najprodavanija lokacija i datum kada je najvise prodaja bilo na istoj
+SELECT Lokacija,datum, FRom PRODAJA
+WHERE prodaja_lokacija = (SELECT prodaja_lokacija FROM prodaja ORDER BY COUNT(prodaja_lokacija) DESC LIMIT 1)
+
